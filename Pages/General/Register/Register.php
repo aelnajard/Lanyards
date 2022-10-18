@@ -123,6 +123,7 @@
             <label for="passwordRegister">Password</label>
             <input type="text" id="passwordRegister" name="fpass">-->
             <input id="nameRegister" type="text" name="" value="">
+            <input id="emailRegister" type="text" name="" value="">
 
         <button id="test" type="button" name="button">Enter nice</button>
 
@@ -172,9 +173,11 @@
 
   var test = document.getElementById("test");
   var nameRegister = document.getElementById("nameRegister");
+  var emailRegister = document.getElementById("emailRegister");
 
     test.addEventListener("click",  function(){
       alert(nameRegister.value);
+      alert(emailRegister.value);
     })
 
 
