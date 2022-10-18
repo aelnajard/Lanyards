@@ -117,11 +117,11 @@
       <div class="bodyRegister">
         <div class="inputRegister">
           <label for="nameRegister">Name</label>
-          <input id="nameRegister" type="text" name="" value=""><br>
+          <input id="nameRegister" type="text" ><br>
           <label for="emailRegister">Email</label>
-          <input id="emailRegister" type="text" name="" value=""><br>
+          <input id="emailRegister" type="text"  ><br>
           <label for="passwordRegister">Password</label>
-          <input id="passwordRegister" type="password" name="" value="">
+          <input id="passwordRegister" type="password" >
         </div>
         <button id="register" type="button" name="button">Enter</button>
         <a id="openLogin2" ><i class="fa-sharp fa-solid fa-arrow-left"></i>&nbsp;Login</a>
