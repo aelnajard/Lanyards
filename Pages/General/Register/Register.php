@@ -8,7 +8,7 @@
     height: 100vh;
     width: 100vw;
     background-color: rgba(10,10,10,.82);
-    z-index: 6;
+    z-index: 11;
   }
   .containerRegister{
     position: relative;
