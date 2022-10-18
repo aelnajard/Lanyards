@@ -7,7 +7,7 @@
     height: 100vh;
     width: 100vw;
     background-color: rgba(10,10,10,.82);
-    z-index: 2;
+    z-index: 8;
   }
   .containerLogin{
     position: relative;
@@ -24,8 +24,7 @@
     position: relative;
     height: 80px;
     width: 100%;
-    background: rgb(63,152,237);
-    background: linear-gradient(-90deg, rgba(63,152,237,1) 0%, rgba(69,79,177,1) 33%, rgba(143,82,180,1) 73%, rgba(196,56,149,1) 95%);
+    background: rgba(69,79,177,0.9);
   }
   .headLogin h3{
     position: relative;
@@ -79,7 +78,7 @@
     top: 40px;
     left: 50%;
     transform: translateX( -50%);
-    background: #C43895;
+    background: rgba(69,79,177,0.9);
     cursor: pointer;
     color: white;
     font-size: 1.3em;
@@ -119,7 +118,7 @@
           <label for="">Password</label>
           <input type="password" name="" value="">
         </div>
-        <button type="button" name="button">Enter</button>
+        <button type="button" name="button">Enter0</button>
         <a id="openRegister" >Create an Account</a>
       </div>
     </div>
@@ -134,7 +133,7 @@
 var closeLogin = document.getElementById("closeLogin");
 var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
 closeLogin.addEventListener("click",function(){
-  bgLogin.display = "none";
+//  bgLogin.display = "none";
 });
 
 
