@@ -124,13 +124,14 @@
           <input id="passwordRegister" type="password" name="" value="">
         </div>
         <button id="register" type="button" name="button">Enter</button>
-        <a id="openLogin3" ><i class="fa-sharp fa-solid fa-arrow-left"></i>&nbsp;Login</a>
+        <a id="openLogin2" ><i class="fa-sharp fa-solid fa-arrow-left"></i>&nbsp;Login</a>
       </div>
     </div>
   </div>
 </section>
 
 
+<?php include("../../Pages/General/Login/Login.php"); ?>
 
 
 <script type="text/javascript">
@@ -144,8 +145,12 @@ closeRegister.addEventListener("click",function(){
 
 
 
-
-
+var openLogin2 = document.getElementById("openLogin2");
+var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
+openLogin2.addEventListener("click",function(){
+  bgRegister.display = "none";
+  bgLogin.display = "block";
+});
 
 
   //register
