@@ -131,7 +131,6 @@
 </section>
 
 
-<?php //include("../../Pages/General/Login/Login.php"); ?>
 
 
 <script type="text/javascript">
@@ -150,6 +149,16 @@ var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
 openLogin2.addEventListener("click",function(){
   bgRegister.display = "none";
   bgLogin.display = "block";
+});
+
+
+var register = document.getElementById("register");
+
+var nameRegister = document.getElementById("nameRegister");
+var emailRegister = document.getElementById("emailRegister");
+var passwordRegister = document.getElementById("passwordRegister");
+register.addEventListener("click",function(){
+  alert(nameRegister + emailRegister + passwordRegister);
 });
 
 
