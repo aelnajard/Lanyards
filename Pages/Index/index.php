@@ -23,7 +23,6 @@
         font-family: 'Roboto Condensed', sans-serif;
         width: 100vw;
         overflow-x: hidden;
-        background-color: red;
       }
     </style>
 
