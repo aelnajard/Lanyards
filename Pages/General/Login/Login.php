@@ -103,7 +103,7 @@
     }
   }
 </style>
-
+<script src="https://kit.fontawesome.com/497e73f6af.js" crossorigin="anonymous"></script>
 <section class="bgLogin">
   <div class="relative">
     <div class="containerLogin">
