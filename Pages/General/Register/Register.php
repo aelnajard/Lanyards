@@ -158,7 +158,7 @@ var nameRegister = document.getElementById("nameRegister");
 var emailRegister = document.getElementById("emailRegister");
 var passwordRegister = document.getElementById("passwordRegister");
 register.addEventListener("click",function(){
-  alert(nameRegister + emailRegister + passwordRegister);
+  alert(nameRegister.value + emailRegister.value + passwordRegister.value);
 });
 
 
