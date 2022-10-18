@@ -162,7 +162,7 @@ var hola = document.getElementById("nameRegister").value;
 
 
 register.addEventListener("click",function(){
-  alert(hola);
+  alert(hola  + "ayyyy");
 
 });
 
