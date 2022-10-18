@@ -7,7 +7,7 @@
     height: 100vh;
     width: 100vw;
     background-color: rgba(10,10,10,.82);
-    z-index: 8;
+    z-index: 11;
   }
   .containerLogin{
     position: relative;
