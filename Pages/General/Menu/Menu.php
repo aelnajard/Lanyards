@@ -260,7 +260,6 @@
   </div>
 </section>
 </div>
-<?php include("../../Pages/General/Login/Login.php"); ?>
 
 <script type="text/javascript">
 
