@@ -126,6 +126,7 @@
 </section>
 
 
+<?php include("../../Pages/General/Register/Register.php"); ?>
 
 <script type="text/javascript">
 
