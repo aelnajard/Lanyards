@@ -154,11 +154,11 @@ openLogin2.addEventListener("click",function(){
 
 var register = document.getElementById("register");
 
-var nameRegister = document.getElementById("nameRegister");
-var emailRegister = document.getElementById("emailRegister");
-var passwordRegister = document.getElementById("passwordRegister");
+var nameRegister = document.getElementById("nameRegister").value;
+var emailRegister = document.getElementById("emailRegister").value;
+var passwordRegister = document.getElementById("passwordRegister").value;
 register.addEventListener("click",function(){
-  alert(nameRegister.value + emailRegister.value + passwordRegister.value);
+  alert(nameRegister + emailRegister + passwordRegister);
 });
 
 
