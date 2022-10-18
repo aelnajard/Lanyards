@@ -148,12 +148,12 @@
 
 
 
-  var openLogin2 = document.getElementById("openLogin2");
+/*  var openLogin2 = document.getElementById("openLogin2");
   var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
   openLogin2.addEventListener("click",function(){
     bgRegister.display = "none";
     bgLogin.display = "block";
-  });
+  });*/
 
 
 /*  var register = document.getElementById("register");
