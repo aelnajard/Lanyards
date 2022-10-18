@@ -174,7 +174,7 @@
   var value = document.getElementById("value");
 
     test.addEventListener("click",  function(){
-      alert("value.value");
+      alert(value.value);
     })
 
 
