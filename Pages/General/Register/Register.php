@@ -131,7 +131,7 @@
 </section>
 
 
-<?php include("../../Pages/General/Login/Login.php"); ?>
+<?php //include("../../Pages/General/Login/Login.php"); ?>
 
 
 <script type="text/javascript">
