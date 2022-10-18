@@ -118,8 +118,8 @@
           <label for="">Password</label>
           <input type="password" name="" value="">
         </div>
-        <button type="button" name="button">Enter0</button>
-        <a id="openRegister" >Create an Account</a>
+        <button type="button" name="button">Enter</button>
+        <a id="openRegister" >Create an Account  <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
   </div>
@@ -127,7 +127,7 @@
 
 
 
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript">
 
 var closeLogin = document.getElementById("closeLogin");
