@@ -21,7 +21,7 @@
   padding: 0;
   overflow-y: scroll;
   padding: 2vw;
-  display: block;
+  display: none;
 }
  .backgroundAddToCart{
    position: absolute;

@@ -1,9 +1,8 @@
 
 <style media="screen">
   .bgLogin{
-    display: none;
-    position: absolute;
-    top: 0px;
+    position: fixed;
+    top: 0%;
     left: 0px;
     height: 100vh;
     width: 100vw;
