@@ -124,7 +124,7 @@
           <input id="passwordRegister" type="password" name="" value="">
         </div>
         <button id="register" type="button" name="button">Enter</button>
-        <a id="openLogin3" ><i class="fa-sharp fa-solid fa-arrow-left"></i>Login</a>
+        <a id="openLogin3" ><i class="fa-sharp fa-solid fa-arrow-left"></i>&nbsp;Login</a>
       </div>
     </div>
   </div>
