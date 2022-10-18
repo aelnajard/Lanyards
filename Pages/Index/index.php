@@ -28,6 +28,8 @@
       }
     </style>
     <?php include("../../Pages/General/Login/Login.php"); ?>
+    <?php include("../../Pages/General/Register/Register.php"); ?>
+
 
     <?php include("../../Pages/General/Menu/Menu.php"); ?>
     <?php include("../../Pages/Index/Slider/Slider.php"); ?>
