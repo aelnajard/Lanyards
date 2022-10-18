@@ -28,6 +28,10 @@
         overflow-x: hidden;
       }
     </style>
+
+    <i class="fa fa-car"></i>
+<i class="fa fa-car" style="font-size:48px;"></i>
+<i class="fa fa-car" style="font-size:60px;color:red;"></i>
     <?php include("../../Pages/General/Login/Login.php"); ?>
 
     <?php include("../../Pages/General/Menu/Menu.php"); ?>
