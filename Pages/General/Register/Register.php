@@ -2,8 +2,8 @@
 <style media="screen">
   .bgRegister{
     display: none;
-    position: absolute;
-    top: 0px;
+    position: fixed;
+    top: 0%;
     left: 0px;
     height: 100vh;
     width: 100vw;
@@ -25,8 +25,7 @@
     position: relative;
     height: 80px;
     width: 100%;
-    background: rgb(63,152,237);
-    background: linear-gradient(-90deg, rgba(63,152,237,1) 0%, rgba(69,79,177,1) 33%, rgba(143,82,180,1) 73%, rgba(196,56,149,1) 95%);
+    background: rgba(69,79,177,0.9);
   }
   .headRegister h3{
     position: relative;
@@ -80,7 +79,7 @@
     top: 40px;
     left: 50%;
     transform: translateX( -50%);
-    background: #C43895;
+    background: rgba(69,79,177,0.9);
     cursor: pointer;
     color: white;
     font-size: 1.3em;
