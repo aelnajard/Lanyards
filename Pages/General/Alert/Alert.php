@@ -17,7 +17,8 @@
     transform: translate(-50%,-50%);
     padding: 20px;
     min-width: 300px;
-
+    width: 300px;
+    height: 400px;
     border-radius: 5px;
   }
   .headAlert{
