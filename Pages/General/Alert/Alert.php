@@ -8,7 +8,7 @@
     width: 100vw;
     background-color: rgba(10,10,10,.82);
     z-index: 11;
-    display: none;
+    display: block;
   }
   .containerLogin{
     position: relative;
@@ -109,16 +109,12 @@
   <div class="relative">
     <div class="containerLogin">
       <div class="headLogin">
-        <h2 id="closeLogin">X</h2>
+        <h2 id="closeAlert">X</h2>
         <h3>Login</h3>
       </div>
       <div class="bodyLogin">
         <div class="inputLogin">
-          <label for="">Email</label>
-          <input type="email" id="emailLogin" name="fname">
 
-          <label for="">Password</label>
-          <input type="password" id="passwordLogin" name="fname">
 
 
       <!--    <label for="">Email</label>
@@ -127,52 +123,15 @@
           <input type="password" id="passwordLogin" name="" value="">-->
         </div>
 
-        <button id="login" type="button" name="button">Enter</button>
-        <a id="openRegister" >Create an Account  <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        <button id="" type="button" name="button">Ok</button>
       </div>
     </div>
   </div>
 </section>
 
 
-<?php include("../../Pages/General/Register/Register.php"); ?>
 
 <script type="text/javascript">
-
-var closeLogin = document.getElementById("closeLogin");
-var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
-closeLogin.addEventListener("click",function(){
-  bgLogin.display = "none";
-});
-
-
-
-var openRegister = document.getElementById("openRegister");
-var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
-var bgRegister = document.getElementsByClassName("bgRegister")[0].style;
-openRegister.addEventListener("click",function(){
-  bgLogin.display = "none";
-  bgRegister.display = "block";
-});
-
-  var login  =  document.getElementById("login");
-  var passwordLogin = document.getElementById("passwordLogin");
-
-
-  login.addEventListener("click", function(){
-    if (emailLogin.value.includes('@')) {
-      if (emailLogin.value.includes('.')) {
-        alert("Haz ingresado un correo válido");
-      }
-      else {
-        alert("No haz ingresado un correo válido");
-      }
-    }
-    else{
-      alert("No haz ingresado un correo válido");
-    }
-    //alert(emailLogin.value + "porfis2" + passwordLogin.value + ":)");
-  })
 
 
   //bgRegister
