@@ -48,7 +48,7 @@
   }
   .bodyAlert{
     position: relative;
-    height: 220px;
+    height: 180px;
     padding: 30px;
     width: 100%;
     background-color: #e0e0e0;
