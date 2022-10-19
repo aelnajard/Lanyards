@@ -15,7 +15,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    min-height: 350px;
+    min-height: 400px;
     min-width: 300px;
     width: 400px;
     border-radius: 5px;
