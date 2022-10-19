@@ -160,10 +160,15 @@ openRegister.addEventListener("click",function(){
 
   login.addEventListener("click", function(){
     if (emailLogin.value.includes('@')) {
-      alert("Ingresaste un correo");
+      if (emailLogin.value.includes('.')) {
+        alert("Haz ingresado un correo válido");
+      }
+      else {
+        alert("No haz ingresado un correo válido");
+      }
     }
     else{
-      alert("No haz ingresado un correo");
+      alert("No haz ingresado un correo válido");
     }
     //alert(emailLogin.value + "porfis2" + passwordLogin.value + ":)");
   })

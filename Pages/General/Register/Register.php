@@ -162,8 +162,24 @@
   var passwordRegister = document.getElementById("passwordRegister");
 
     register.addEventListener("click", function(){
-      alert(nameRegister.value + emailRegister.value + passwordRegister.value + "hola");
+      if (emailRegister.value.includes('@')) {
+        if (emailRegister.value.includes('.')) {
+          alert("Haz ingresado un correo válido");
+        }
+        else {
+          alert("No haz ingresado un correo válido");
+        }
+      }
+      else{
+        alert("No haz ingresado un correo válido");
+      }
+
+    //  alert(nameRegister.value + emailRegister.value + passwordRegister.value + "hola");
     })
+
+
+
+    
 
 
     //register
