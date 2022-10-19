@@ -116,7 +116,6 @@
         <div class="inputLogin">
           <h5 id="messageAlert">Your account has been created</h5>
 
-      <br><br>
           <button id="" type="button" name="button">Ok</button>
 
         </div>
