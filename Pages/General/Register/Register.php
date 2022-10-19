@@ -175,12 +175,12 @@
   var test = document.getElementById("test");
   var nameRegister = document.getElementById("nameRegister");
   var emailRegister = document.getElementById("emailRegister");
-  var emailRegister = document.getElementById("emailRegister");
+  var passwordRegister = document.getElementById("passwordRegister");
 
-    test.addEventListener("click",  function(){
+    test.addEventListener("click", function(){
       alert(nameRegister.value);
       alert(emailRegister.value);
-      alert(emailRegister.value);
+      alert(passwordRegister.value);
     })
 
 
