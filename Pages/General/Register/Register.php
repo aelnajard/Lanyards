@@ -171,18 +171,18 @@
         if (emailRegister.value.includes('.')) {
           messageAlert.innerHTML = "Haz ingresado un correo válido";
           bgAlert.display =  "block";
-          bgLogin.display =  "none";
+          bgRegister.display =  "none";
         }
         else {
           messageAlert.innerHTML = "No haz ingresado un correo válido";
           bgAlert.display =  "block";
-          bgLogin.display =  "none";
+          bgRegister.display =  "none";
         }
       }
       else{
         messageAlert.innerHTML = "No haz ingresado un correo válido";
         bgAlert.display =  "block";
-        bgLogin.display =  "none";
+        bgRegister.display =  "none";
       }
 
     //  alert(nameRegister.value + emailRegister.value + passwordRegister.value + "hola");
