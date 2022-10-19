@@ -133,6 +133,8 @@
       </div>
     </div>
   </section>
+  <?php include("../../Pages/General/Alert/Alert.php"); ?>
+
 
 
 
