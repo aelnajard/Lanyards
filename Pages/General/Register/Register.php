@@ -126,7 +126,7 @@
 
 
           </div>
-          <button id="test" type="button" name="button">Enter nice</button>
+          <button id="register" type="button" name="button">Enter</button>
 
         <!--  <button id="register" type="button" name="button">Enter</button>-->
           <a id="openLogin2" ><i class="fa-sharp fa-solid fa-arrow-left"></i>&nbsp;Login</a>
@@ -171,12 +171,12 @@
 
   });*/
 
-  var test = document.getElementById("test");
+  var register = document.getElementById("register");
   var nameRegister = document.getElementById("nameRegister");
   var emailRegister = document.getElementById("emailRegister");
   var passwordRegister = document.getElementById("passwordRegister");
 
-    test.addEventListener("click", function(){
+    register.addEventListener("click", function(){
       alert(nameRegister.value);
       alert(emailRegister.value);
       alert(passwordRegister.value);
