@@ -15,10 +15,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    min-height: 400px;
+    padding: 20px;
     min-width: 300px;
-    height: 400px;
-    width: 400px;
+
     border-radius: 5px;
   }
   .headAlert{
