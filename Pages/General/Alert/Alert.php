@@ -1,6 +1,6 @@
 
 <style media="screen">
-  .bgLogin{
+  .bgAlert{
     position: fixed;
     top: 0%;
     left: 0px;
@@ -8,7 +8,7 @@
     width: 100vw;
     background-color: rgba(10,10,10,.82);
     z-index: 11;
-    display: block;
+    display: none;
   }
   .containerLogin{
     position: relative;
@@ -69,7 +69,7 @@
     padding-left: 10px;
     font-size: 1.2em;
   }
-  .inputLogin label{
+  .inputLogin h5{
     font-size: 1.2em;
   }
   .bodyLogin button{
@@ -105,7 +105,7 @@
   }
 </style>
 <script src="https://kit.fontawesome.com/497e73f6af.js" crossorigin="anonymous"></script>
-<section class="bgLogin">
+<section class="bgAlert">
   <div class="relative">
     <div class="containerLogin">
       <div class="headLogin">
@@ -114,6 +114,7 @@
       </div>
       <div class="bodyLogin">
         <div class="inputLogin">
+          <h5 id="messageAlert">Your account has been created</h5>
 
 
 

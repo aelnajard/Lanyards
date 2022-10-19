@@ -8,6 +8,7 @@
     width: 100vw;
     background-color: rgba(10,10,10,.82);
     z-index: 11;
+
   }
   .containerLogin{
     position: relative;
@@ -158,18 +159,28 @@ openRegister.addEventListener("click",function(){
   var login  =  document.getElementById("login");
   var passwordLogin = document.getElementById("passwordLogin");
 
+  var messageAlert = document.getElementById("messageAlert");
+  var bgAlert = document.getElementsByClassName("bgAlert")[0].style;
+
+
+
 
   login.addEventListener("click", function(){
     if (emailLogin.value.includes('@')) {
       if (emailLogin.value.includes('.')) {
-        alert("Haz ingresado un correo válido");
+      //  alert("Haz ingresado un correo válido");
+      bgAlert.display =  "block";
       }
       else {
-        alert("No haz ingresado un correo válido");
+        bgAlert.display =  "block";
+
+      //  alert("No haz ingresado un correo válido");
       }
     }
     else{
-      alert("No haz ingresado un correo válido");
+      bgAlert.display =  "block";
+
+  //    alert("No haz ingresado un correo válido");
     }
     //alert(emailLogin.value + "porfis2" + passwordLogin.value + ":)");
   })
