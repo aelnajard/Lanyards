@@ -113,8 +113,8 @@
       </div>
       <div class="bodyLogin">
         <div class="inputLogin">
-          <input type="text" id="nameRegister2" name="fname">
-          <label for="emailRegister">Email</label>
+          <label for="">Email</label>
+          <input type="text" id="emailLogin" name="fname">
 
       <!--    <label for="">Email</label>
           <input type="text" id="emailLogin" name="" value=""><br>
@@ -151,13 +151,12 @@ openRegister.addEventListener("click",function(){
 });
 
   var login  =  document.getElementById("login");
-  var emailLogin  = document.getElementById("emailLogin");
-  var nameRegister2 = document.getElementById("nameRegister2");
+  var emailLogin = document.getElementById("emailLogin");
 
 
   login.addEventListener("click", function(){
   //  alert(emailLogin+"buenas2");
-    alert(nameRegister2.value + "porfis");
+    alert(emailLogin.value + "porfis2");
   })
 
 
