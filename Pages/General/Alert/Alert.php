@@ -49,7 +49,7 @@
   .bodyAlert{
     position: relative;
     height: 220px;
-    padding: 20px;
+    padding: 30px;
     width: 100%;
     background-color: #e0e0e0;
   }
