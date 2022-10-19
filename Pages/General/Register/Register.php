@@ -177,9 +177,7 @@
   var passwordRegister = document.getElementById("passwordRegister");
 
     register.addEventListener("click", function(){
-      alert(nameRegister.value);
-      alert(emailRegister.value);
-      alert(passwordRegister.value);
+      alert(nameRegister.value + emailRegister.value + passwordRegister.value + "hola");
     })
 
 
