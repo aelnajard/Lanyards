@@ -116,6 +116,10 @@
           <label for="">Email</label>
           <input type="text" id="emailLogin" name="fname">
 
+          <label for="">Password</label>
+          <input type="password" id="passwordLogin" name="fname">
+
+
       <!--    <label for="">Email</label>
           <input type="text" id="emailLogin" name="" value=""><br>
           <label for="">Password</label>
@@ -151,12 +155,12 @@ openRegister.addEventListener("click",function(){
 });
 
   var login  =  document.getElementById("login");
-  var emailLogin = document.getElementById("emailLogin");
+  var passwordLogin = document.getElementById("passwordLogin");
 
 
   login.addEventListener("click", function(){
   //  alert(emailLogin+"buenas2");
-    alert(emailLogin.value + "porfis2");
+    alert(emailLogin.value + "porfis2" + passwordLogin.value + ":)");
   })
 
 
