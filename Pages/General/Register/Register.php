@@ -116,18 +116,13 @@
         </div>
         <div class="bodyRegister">
           <div class="inputRegister">
-          <!--  <label for="nameRegister">Name</label>
+        <label for="nameRegister">Name</label>
             <input type="text" id="nameRegister" name="fname">
             <label for="emailRegister">Email</label>
             <input type="text" id="emailRegister" name="femail">
             <label for="passwordRegister">Password</label>
-            <input type="text" id="passwordRegister" name="fpass">-->
-            <label for="nameRegister">Name</label>
-            <input id="nameRegister" type="text" name="" value="">
-            <label for="emailRegister">Email</label>
-            <input id="emailRegister" type="text" name="" value="">
-            <label for="passwordRegister">Password</label>
-            <input id="passwordRegister" type="text" name="" value="">
+            <input type="text" id="passwordRegister" name="fpass">
+
 
         <button id="test" type="button" name="button">Enter nice</button>
 
