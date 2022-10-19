@@ -15,7 +15,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    min-height: 300px;
+    min-height: 350px;
     min-width: 300px;
     width: 400px;
     border-radius: 5px;
@@ -51,24 +51,7 @@
     width: 100%;
     background-color: #e0e0e0;
   }
-  .inputAlert{
-    position: relative;
-    width: 80%;
-    padding: 10px 0px;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .inputAlert input{
-    position: relative;
-    width: 100%;
-    height: 30px;
-    margin: 10px 0;
-    border: 1px solid black;
-    padding-left: 10px;
-    font-size: 1.2em;
-  }
-  .inputAlert h5{
+  .bodyAlert h5{
     font-size: 1.4em;
     font-weight: 400;
   }
@@ -83,21 +66,9 @@
     cursor: pointer;
     color: white;
     font-size: 1.3em;
-  }
-  .bodyAlert a{
-    position: relative;
     display: block;
-    height: 45px;
-    width: 50%;
-    top: 40px;
-    left: 50%;
-    transform: translateX( -50%);
-    cursor: pointer;
-    color: black;
-    margin: 10px  0;
-    font-size: 1.3em;
-    text-align: center;
   }
+
   @media screen and (max-width: 470px) {
     .containerAlert{
       width: 290px
@@ -110,14 +81,14 @@
     <div class="containerAlert">
       <div class="headAlert">
         <h2 id="closeAlert">X</h2>
-        <h3>Alert</h3>
+        <h3>Message</h3>
       </div>
       <div class="bodyAlert">
           <h5 id="messageAlert">Your account has been created</h5>
 
           <button id="" type="button" name="button">Ok</button>
 
-  d
+
       </div>
     </div>
   </div>
