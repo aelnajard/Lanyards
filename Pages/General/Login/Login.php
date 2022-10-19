@@ -168,23 +168,19 @@ openRegister.addEventListener("click",function(){
   login.addEventListener("click", function(){
     if (emailLogin.value.includes('@')) {
       if (emailLogin.value.includes('.')) {
-      //  alert("Haz ingresado un correo válido");
-      bgAlert.display =  "block";
+        messageAlert.innerHTML = "Haz ingresado un correo válido";
+        bgAlert.display =  "block";
       }
       else {
+        messageAlert.innerHTML = "No haz ingresado un correo válido";
         bgAlert.display =  "block";
-
-      //  alert("No haz ingresado un correo válido");
       }
     }
     else{
       bgAlert.display =  "block";
-
-  //    alert("No haz ingresado un correo válido");
+      messageAlert.innerHTML = "No haz ingresado un correo válido";
     }
     //alert(emailLogin.value + "porfis2" + passwordLogin.value + ":)");
   })
 
-
-  //bgRegister
 </script>
