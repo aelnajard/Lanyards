@@ -121,7 +121,7 @@
             <label for="emailRegister">Email</label>
             <input type="text" id="emailRegister" name="femail">
             <label for="passwordRegister">Password</label>
-            <input type="text" id="passwordRegister" name="fpass">
+            <input type="password" id="passwordRegister" name="fpass">
 
 
 
@@ -169,7 +169,7 @@
     register.addEventListener("click", function(){
       if (emailRegister.value.includes('@')) {
         if (emailRegister.value.includes('.')) {
-          messageAlert.innerHTML = "Haz ingresado un correo válido";
+          messageAlert.innerHTML = "Your account has been created";
           bgAlert.display =  "block";
           bgRegister.display =  "none";
         }
