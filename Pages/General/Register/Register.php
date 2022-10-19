@@ -124,11 +124,12 @@
             <input type="text" id="passwordRegister" name="fpass">
 
 
-        <button id="test" type="button" name="button">Enter nice</button>
 
           </div>
-        <!--  <button id="register" type="button" name="button">Enter</button>
-          <a id="openLogin2" ><i class="fa-sharp fa-solid fa-arrow-left"></i>&nbsp;Login</a>-->
+          <button id="test" type="button" name="button">Enter nice</button>
+
+        <!--  <button id="register" type="button" name="button">Enter</button>-->
+          <a id="openLogin2" ><i class="fa-sharp fa-solid fa-arrow-left"></i>&nbsp;Login</a>
         </div>
       </div>
     </div>
