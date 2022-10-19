@@ -16,7 +16,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 20px;
-    min-width: 300px;
+    min-width: 400px;
     width: 300px;
     height: 400px;
     border-radius: 5px;
@@ -48,7 +48,7 @@
   }
   .bodyAlert{
     position: relative;
-    padding: 20px;
+    height: 320px;
     width: 100%;
     background-color: #e0e0e0;
   }
