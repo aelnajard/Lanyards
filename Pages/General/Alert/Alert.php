@@ -17,6 +17,7 @@
     transform: translate(-50%,-50%);
     min-height: 400px;
     min-width: 300px;
+    height: 400px;
     width: 400px;
     border-radius: 5px;
   }
