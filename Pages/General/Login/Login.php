@@ -135,7 +135,7 @@
 
 
 <?php include("../../Pages/General/Register/Register.php"); ?>
-<?php include("../../Pages/General/Login/Login.php"); ?>
+<?php include("../../Pages/General/Alert/Alert.php"); ?>
 
 <script type="text/javascript">
 
