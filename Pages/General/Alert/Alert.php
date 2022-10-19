@@ -10,14 +10,14 @@
     z-index: 11;
     display: none;
   }
-  .containerLogin{
+  .containerAlert{
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     min-height: 400px;
     min-width: 300px;
-    height: 200px;
+    height: 150px;
     width: 400px;
     border-radius: 5px;
   }
@@ -108,10 +108,10 @@
 <script src="https://kit.fontawesome.com/497e73f6af.js" crossorigin="anonymous"></script>
 <section class="bgAlert">
   <div class="relative">
-    <div class="containerLogin">
+    <div class="containerAlert">
       <div class="headLogin">
         <h2 id="closeAlert">X</h2>
-        <h3>Login</h3>
+        <h3>Alert</h3>
       </div>
       <div class="bodyLogin">
         <div class="inputLogin">
