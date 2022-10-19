@@ -114,7 +114,7 @@
       <div class="bodyLogin">
         <div class="inputLogin">
           <label for="">Email</label>
-          <input type="text" id="emailLogin" name="fname">
+          <input type="email" id="emailLogin" name="fname">
 
           <label for="">Password</label>
           <input type="password" id="passwordLogin" name="fname">
@@ -159,7 +159,6 @@ openRegister.addEventListener("click",function(){
 
 
   login.addEventListener("click", function(){
-  //  alert(emailLogin+"buenas2");
     alert(emailLogin.value + "porfis2" + passwordLogin.value + ":)");
   })
 
