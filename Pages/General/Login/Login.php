@@ -118,7 +118,7 @@
           <label for="">Password</label>
           <input type="password" name="" value="">
         </div>
-        <button type="button" name="button">Enter</button>
+        <button id="login" type="button" name="button">Enter</button>
         <a id="openRegister" >Create an Account  <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
@@ -146,7 +146,10 @@ openRegister.addEventListener("click",function(){
   bgRegister.display = "block";
 });
 
-
+  var login  =  document.getElementById("login");
+  login.addEventListener("click", function(){
+    alert("buenas");
+  })
 
 
   //bgRegister
