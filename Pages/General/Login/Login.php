@@ -114,9 +114,9 @@
       <div class="bodyLogin">
         <div class="inputLogin">
           <label for="">Email</label>
-          <input type="text" name="" value=""><br>
+          <input type="text" id="emailLogin" name="" value=""><br>
           <label for="">Password</label>
-          <input type="password" name="" value="">
+          <input type="password" id="passwordLogin" name="" value="">
         </div>
         <button id="login" type="button" name="button">Enter</button>
         <a id="openRegister" >Create an Account  <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
@@ -147,8 +147,10 @@ openRegister.addEventListener("click",function(){
 });
 
   var login  =  document.getElementById("login");
+  var emailLogin  = document.getElementById("emailLogin").value;
+
   login.addEventListener("click", function(){
-    alert("buenas");
+    alert(emailLogin+"buenas2");
   })
 
 
