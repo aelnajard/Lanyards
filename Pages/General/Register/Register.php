@@ -128,7 +128,6 @@
           </div>
           <button id="register" type="button" name="button">Enter</button>
 
-        <!--  <button id="register" type="button" name="button">Enter</button>-->
           <a id="openLogin2" ><i class="fa-sharp fa-solid fa-arrow-left"></i>&nbsp;Login</a>
         </div>
       </div>
@@ -149,12 +148,12 @@
 
 
 
-/*  var openLogin2 = document.getElementById("openLogin2");
+  var openLogin2 = document.getElementById("openLogin2");
   var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
   openLogin2.addEventListener("click",function(){
     bgRegister.display = "none";
     bgLogin.display = "block";
-  });*/
+  });
 
 
 /*  var register = document.getElementById("register");
