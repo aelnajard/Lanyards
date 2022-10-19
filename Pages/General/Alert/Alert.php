@@ -70,7 +70,8 @@
     font-size: 1.2em;
   }
   .inputLogin h5{
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-weight: 400;
   }
   .bodyLogin button{
     position: relative;
@@ -116,15 +117,11 @@
         <div class="inputLogin">
           <h5 id="messageAlert">Your account has been created</h5>
 
+      <br><br>
+          <button id="" type="button" name="button">Ok</button>
 
-
-      <!--    <label for="">Email</label>
-          <input type="text" id="emailLogin" name="" value=""><br>
-          <label for="">Password</label>
-          <input type="password" id="passwordLogin" name="" value="">-->
         </div>
 
-        <button id="" type="button" name="button">Ok</button>
       </div>
     </div>
   </div>
