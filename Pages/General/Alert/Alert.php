@@ -20,13 +20,13 @@
     width: 400px;
     border-radius: 5px;
   }
-  .headLogin{
+  .headAlert{
     position: relative;
     height: 80px;
     width: 100%;
     background: rgba(69,79,177,0.9);
   }
-  .headLogin h3{
+  .headAlert h3{
     position: relative;
     font-size: 1.7em;
     text-align: center;
@@ -34,7 +34,7 @@
     transform: translateY(-50%);
     color: white;
   }
-  .headLogin h2{
+  .headAlert h2{
     position: absolute;
     display: block;
     top: 50%;
@@ -45,13 +45,13 @@
     cursor: pointer;
     z-index: 2;
   }
-  .bodyLogin{
+  .bodyAlert{
     position: relative;
-    height: calc(100% - 80px);
+    padding: 20px;
     width: 100%;
     background-color: #e0e0e0;
   }
-  .inputLogin{
+  .inputAlert{
     position: relative;
     width: 80%;
     padding: 10px 0px;
@@ -59,7 +59,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .inputLogin input{
+  .inputAlert input{
     position: relative;
     width: 100%;
     height: 30px;
@@ -68,11 +68,11 @@
     padding-left: 10px;
     font-size: 1.2em;
   }
-  .inputLogin h5{
+  .inputAlert h5{
     font-size: 1.4em;
     font-weight: 400;
   }
-  .bodyLogin button{
+  .bodyAlert button{
     position: relative;
     height: 45px;
     width: 50%;
@@ -84,7 +84,7 @@
     color: white;
     font-size: 1.3em;
   }
-  .bodyLogin a{
+  .bodyAlert a{
     position: relative;
     display: block;
     height: 45px;
@@ -99,7 +99,7 @@
     text-align: center;
   }
   @media screen and (max-width: 470px) {
-    .containerLogin{
+    .containerAlert{
       width: 290px
     }
   }
@@ -108,18 +108,16 @@
 <section class="bgAlert">
   <div class="relative">
     <div class="containerAlert">
-      <div class="headLogin">
+      <div class="headAlert">
         <h2 id="closeAlert">X</h2>
         <h3>Alert</h3>
       </div>
-      <div class="bodyLogin">
-        <div class="inputLogin">
+      <div class="bodyAlert">
           <h5 id="messageAlert">Your account has been created</h5>
 
           <button id="" type="button" name="button">Ok</button>
 
-        </div>
-
+  d
       </div>
     </div>
   </div>
