@@ -162,8 +162,6 @@ openRegister.addEventListener("click",function(){
   var bgAlert = document.getElementsByClassName("bgAlert")[0].style;
 
 
-
-
   login.addEventListener("click", function(){
     if (emailLogin.value.includes('@')) {
       if (emailLogin.value.includes('.')) {

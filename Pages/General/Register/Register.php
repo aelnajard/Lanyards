@@ -161,17 +161,26 @@
   var emailRegister = document.getElementById("emailRegister");
   var passwordRegister = document.getElementById("passwordRegister");
 
+  var messageAlert = document.getElementById("messageAlert");
+  var bgAlert = document.getElementsByClassName("bgAlert")[0].style;
+
     register.addEventListener("click", function(){
       if (emailRegister.value.includes('@')) {
         if (emailRegister.value.includes('.')) {
-          alert("Haz ingresado un correo válido");
+          messageAlert.innerHTML = "Haz ingresado un correo válido";
+          bgAlert.display =  "block";
+          bgLogin.display =  "none";
         }
         else {
-          alert("No haz ingresado un correo válido");
+          messageAlert.innerHTML = "No haz ingresado un correo válido";
+          bgAlert.display =  "block";
+          bgLogin.display =  "none";
         }
       }
       else{
-        alert("No haz ingresado un correo válido");
+        messageAlert.innerHTML = "No haz ingresado un correo válido";
+        bgAlert.display =  "block";
+        bgLogin.display =  "none";
       }
 
     //  alert(nameRegister.value + emailRegister.value + passwordRegister.value + "hola");
@@ -179,7 +188,7 @@
 
 
 
-    
+
 
 
     //register
