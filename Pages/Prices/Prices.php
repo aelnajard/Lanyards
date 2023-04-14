@@ -5,7 +5,7 @@
     <title>Lanyards for you</title>
     <link rel="stylesheet" href="../../Pages/General/CSS/index.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   </head>
   <body>
 
@@ -29,7 +29,7 @@
       <img src="../../Pages/Prices/Price 1.png" alt="">
       <img src="../../Pages/Prices/Price 1.png" alt="">
     </section>
-    
+
     <?php include("../../Pages/General/Footer/Footer.php"); ?>
 
     <script type="text/javascript">
